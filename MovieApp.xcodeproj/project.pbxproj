@@ -16,6 +16,7 @@
 		D91A2AA42C772FF200A481D1 /* MovieData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91A2AA32C772FF200A481D1 /* MovieData.swift */; };
 		D91A2AA92C77328100A481D1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91A2AA82C77328100A481D1 /* MainViewController.swift */; };
 		D91A2AAB2C77348300A481D1 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91A2AAA2C77348300A481D1 /* MovieCell.swift */; };
+		D91A2AB32C77607900A481D1 /* Preference.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91A2AB22C77607900A481D1 /* Preference.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		D91A2AA32C772FF200A481D1 /* MovieData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieData.swift; sourceTree = "<group>"; };
 		D91A2AA82C77328100A481D1 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		D91A2AAA2C77348300A481D1 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		D91A2AB22C77607900A481D1 /* Preference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preference.swift; sourceTree = "<group>"; };
 		F8ADFA73A10983DF056B5181 /* Pods-MovieApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieApp.debug.xcconfig"; path = "Target Support Files/Pods-MovieApp/Pods-MovieApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,6 +88,7 @@
 			children = (
 				D91A2A8E2C772EF900A481D1 /* AppDelegate.swift */,
 				D91A2A902C772EF900A481D1 /* SceneDelegate.swift */,
+				D91A2AB22C77607900A481D1 /* Preference.swift */,
 				D91A2AA22C772FE400A481D1 /* Model */,
 				D91A2AA52C77310A00A481D1 /* Controls */,
 				D91A2AA62C77312900A481D1 /* Controllers */,
@@ -248,6 +251,7 @@
 				D91A2AA42C772FF200A481D1 /* MovieData.swift in Sources */,
 				D91A2A912C772EF900A481D1 /* SceneDelegate.swift in Sources */,
 				D91A2AAB2C77348300A481D1 /* MovieCell.swift in Sources */,
+				D91A2AB32C77607900A481D1 /* Preference.swift in Sources */,
 				D91A2AA92C77328100A481D1 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
