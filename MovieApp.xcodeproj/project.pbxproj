@@ -17,6 +17,7 @@
 		D91A2AA92C77328100A481D1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91A2AA82C77328100A481D1 /* MainViewController.swift */; };
 		D91A2AAB2C77348300A481D1 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91A2AAA2C77348300A481D1 /* MovieCell.swift */; };
 		D91A2AB32C77607900A481D1 /* Preference.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91A2AB22C77607900A481D1 /* Preference.swift */; };
+		D91A2AB52C7774E900A481D1 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91A2AB42C7774E900A481D1 /* MovieDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		D91A2AA82C77328100A481D1 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		D91A2AAA2C77348300A481D1 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		D91A2AB22C77607900A481D1 /* Preference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preference.swift; sourceTree = "<group>"; };
+		D91A2AB42C7774E900A481D1 /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
 		F8ADFA73A10983DF056B5181 /* Pods-MovieApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieApp.debug.xcconfig"; path = "Target Support Files/Pods-MovieApp/Pods-MovieApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -120,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				D91A2AA82C77328100A481D1 /* MainViewController.swift */,
+				D91A2AB42C7774E900A481D1 /* MovieDetailViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 				D91A2AA42C772FF200A481D1 /* MovieData.swift in Sources */,
 				D91A2A912C772EF900A481D1 /* SceneDelegate.swift in Sources */,
 				D91A2AAB2C77348300A481D1 /* MovieCell.swift in Sources */,
+				D91A2AB52C7774E900A481D1 /* MovieDetailViewController.swift in Sources */,
 				D91A2AB32C77607900A481D1 /* Preference.swift in Sources */,
 				D91A2AA92C77328100A481D1 /* MainViewController.swift in Sources */,
 			);

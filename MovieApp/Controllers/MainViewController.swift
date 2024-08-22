@@ -24,8 +24,12 @@ class MainViewController: UIViewController {
         searchBar.delegate = self
         tableView.dataSource = self
         tableView.delegate = self
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+            self.showSearchPrompt()
+        }
         fetchAPI(with: "")
     }
+    
     
     private func fetchAPI(with searchTerm: String) {
         let baseURL = "http://www.omdbapi.com/"
@@ -50,6 +54,12 @@ class MainViewController: UIViewController {
 
     private func showAlert(_ message: String) {
         let alert = UIAlertController(title: "Error", message: message, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "OK", style: .default))
+        self.present(alert, animated: true)
+    }
+    
+    private func showSearchPrompt() {
+        let alert = UIAlertController(title: "Search Movies", message: "Please enter a movie name in the search bar to find movies.", preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "OK", style: .default))
         self.present(alert, animated: true)
     }
@@ -97,6 +107,13 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource {
             }
         }
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let storyBoard = UIStoryboard(name: "Main", bundle: Bundle.main)
+        let vc = storyBoard.instantiateViewController(withIdentifier: "MovieDetailViewController") as! MovieDetailViewController
+        vc.movie = filteredMovies[indexPath.row]
+        self.navigationController?.pushViewController(vc, animated: true)
     }
 }
 
