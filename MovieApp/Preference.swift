@@ -7,15 +7,17 @@
 
 import Foundation
 
+import Foundation
+
 func saveFavorite(movie: MovieData) {
     var favorites = getFavoriteMovies()
-    favorites.append(movie.title)
+    favorites.append(movie.imdbID)
     UserDefaults.standard.set(favorites, forKey: "favoriteMovies")
 }
 
 func removeFavorite(movie: MovieData) {
     var favorites = getFavoriteMovies()
-    favorites.removeAll { $0 == movie.title }
+    favorites.removeAll { $0 == movie.imdbID }
     UserDefaults.standard.set(favorites, forKey: "favoriteMovies")
 }
 
