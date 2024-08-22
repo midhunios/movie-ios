@@ -8,7 +8,7 @@ This is a simple iOS application that fetches and displays a list of movies from
 1. Clone the repository.
 2. Open the project in Xcode.
 3. Sign up for an API key at [OMDb API](http://www.omdbapi.com/apikey.aspx).
-4. Replace `your_api_key` in `MainViewController` with your actual API key.
+4. Replace `your_api_key` in `Config` file with your actual API key.
 5. Build and run the project on your device or simulator.
 
 ## Features

@@ -33,7 +33,7 @@ class MainViewController: UIViewController {
     
     private func fetchAPI(with searchTerm: String) {
         let baseURL = "http://www.omdbapi.com/"
-        let url = "\(baseURL)?apikey=b5e926ed&type=movie&s=\(searchTerm)"
+        let url = "\(baseURL)?apikey=\(Config.apiKey)&type=movie&s=\(searchTerm)"
         
         AF.request(url).responseData { response in
             switch response.result {
